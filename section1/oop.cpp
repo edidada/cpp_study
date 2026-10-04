@@ -1,4 +1,4 @@
-// Copyright (c) 2050 by Chrono
+// Copyright (c) 2020 by Chrono
 //
 // g++ oop.cpp -std=c++11 -o a.out;./a.out
 // g++ oop.cpp -std=c++14 -o a.out;./a.out
@@ -8,6 +8,10 @@
 #include <string>
 #include <vector>
 #include <set>
+
+#if(defined (__MINGW64__) || (defined __MINGW32__))
+#include <cstdint>
+#endif
 
 #if 1
 
