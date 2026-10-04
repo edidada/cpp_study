@@ -8,10 +8,7 @@
 #include <string>
 #include <vector>
 #include <set>
-
-#if(defined (__MINGW64__) || (defined __MINGW32__))
 #include <cstdint>
-#endif
 
 #if 1
 
